@@ -1,0 +1,7 @@
+{
+  "name": "blah",
+  "react": [
+    "index.jsx"
+  ],
+  "main": "index.jsx"
+}
