@@ -20,6 +20,7 @@ module.exports = function () {
         file.extension = 'js';
         done();
       } catch (e) {
+        e.fileName = file.filename;
         return done(e);
       }
     });

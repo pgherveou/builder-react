@@ -1,7 +1,7 @@
 {
   "name": "builder-react",
   "description": "React plugin for component-builder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "repository": "pgherveou/builder-react",
   "dependencies": {
