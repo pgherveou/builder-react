@@ -1,11 +1,11 @@
 {
   "name": "builder-react",
   "description": "React plugin for component-builder",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "repository": "pgherveou/builder-react",
   "dependencies": {
-    "react-tools": "^0.10.0"
+    "react-tools": "^0.11.0"
   },
   "devDependencies": {
     "mkdirp": "~0.3.5",
