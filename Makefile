@@ -1,5 +1,5 @@
 BIN = ./node_modules/.bin/
-NODE ?= gnode
+NODE ?=  gnode
 
 test:
 	@$(NODE) $(BIN)mocha \
