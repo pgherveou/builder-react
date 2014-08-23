@@ -11,9 +11,10 @@ function calculate(string) {
 module.exports = function () {
 
   return function react(file, done) {
-    if (file.extension !== 'jsx') return done();
+    if (file.extension !== 'jsx' && file.extension !== 'js') return done();
     file.read(function (err, string) {
       if (err) return done(err);
+      if (string.indexOf('jsx') < 0) return done();
       var hash = file.filename + '#' + calculate(string);
       try {
         file.string = cache[hash] = cache[hash] || transform(string);
